@@ -1,7 +1,7 @@
 .banner {
   height: 50vh;
   position: relative;
-  background: url('../assets/banner.jpg') -280px -850px;
+  background: url('../assets/banner.jpg') -280px -750px;
   background-repeat: no-repeat;
   object-fit: cover;
   margin-top: 20px;
@@ -11,10 +11,22 @@
     color: white;
     padding:10vh 50px 40px 50px;
     width: 400px;
-    height: 34.7vh;
+    height: 30vh;
 }
 .banner__info > button{
     background-color: #FF5A5F;
     color: white;
     text-transform: inherit;
+}
+.banner__searchBtn{
+    background-color: white !important;
+    font-weight: 900 !important;
+    color: #FF5A5F !important;
+    text-transform: inherit !important;
+    border: none !important;
+}
+.banner__searchDate{
+    display: flex;
+    top:0;
+    flex-direction: column;
 }
